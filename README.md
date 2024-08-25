@@ -7,7 +7,7 @@ Archivos
 - **ingredientes.py**: Contiene las listas de ingredientes permitidos.
   Uso
 
-Acceso a Atributos de Clase
+## Acceso a Atributos de Clase
 
 ```python
 from pizza import Pizza
@@ -15,14 +15,14 @@ print('Precio:', Pizza.precio)
 print('Tamaño:', Pizza.tamano)
 ```
 
-Validación de Ingredientes
+## Validación de Ingredientes
 
 ```python
 es_valido = Pizza.validar_elemento('salsa de tomate', ['salsa de tomate', 'salsa bbq'])
 print(f'¿\'salsa de tomate\' está en la lista? {es_valido}')
 ```
 
-Crear y Validar una Pizza
+## Crear y Validar una Pizza
 
 ```python
 mi_pizza = Pizza()
@@ -33,14 +33,35 @@ print('Proteína:', mi_pizza.ingrediente_proteico)
 print('Masa:', mi_pizza.tipo_masa)
 ```
 
-Requisitos
-Python 3.x
-Ejecución
-Clona el repositorio y ejecuta el script principal:
+## Requisitos
 
-```bash
-python main.py
-```
+Para ejecutar este proyecto, asegúrate de tener instalado:
 
-Licencia
-Este proyecto está bajo la licencia MIT.
+- **Sistema Operativo:** Windows, Linux, macOS
+- **Lenguaje de programación:** Python 3.12 o superior
+
+## Instalación del Proyecto
+
+1. **Clona el repositorio:**
+
+   ```bash
+   git clone git@github.com:ambrazv/pizza.desafio.git
+   ```
+
+2. **Accede al directorio del proyecto:**
+
+   ```bash
+   cd pizza.desafio
+   ```
+
+## Instrucciones para Ejecutar el Proyecto
+
+1. **Ejecuta el script principal:**
+
+   ```bash
+   evaluaciones.py
+   ```
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT - consulta el archivo `LICENSE.md` para más detalles.
